@@ -205,10 +205,10 @@ class OSG_EXPORT Shader : public osg::Object
         const ShaderBinary* getShaderBinary() const { return _shaderBinary.get(); }
 
 #ifdef OSG_USE_DEPRECATED_API
-        /** Deorecated use osgDB::readRefShaderFile().*/
+        /** Deprecated, use osgDB::readRefShaderFile().*/
         static Shader* readShaderFile( Type type, const std::string& fileName );
 
-        /** Deorecated use osgDB::readRefShaderFile(). */
+        /** Deprecated, use osgDB::readRefShaderFile(). */
         bool loadShaderSourceFromFile( const std::string& fileName );
 #endif
 
